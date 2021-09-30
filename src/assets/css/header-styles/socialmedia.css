@@ -1,0 +1,29 @@
+@import url('../root-variables.css');
+
+.socialmedia-container{
+    width: 100vw;
+    height: 70px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(145,193,69); 
+    background: linear-gradient(90deg, rgba(145,193,69,1) 25%, rgba(0,159,227,1) 100%);
+    box-shadow: 0 5px 35px #000;
+}
+
+.socialmedia-container a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: var(--black);
+}
+
+.socialmedia-container a:hover{
+    color: var(--white);
+}
+
+.socialmedia-container a[title]{
+    background-color: var(--green);
+    color: #000;
+    border: none;
+}
