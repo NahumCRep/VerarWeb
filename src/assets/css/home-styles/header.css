@@ -5,6 +5,7 @@
     height: 500px;
     position: relative;
     background: var(--black);
+    /* z-index: 100; */
 }
 
 .header-container::after{
@@ -20,6 +21,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    /* z-index: 1; */
 }
 
 @media screen and (max-width: 650px){
@@ -32,7 +34,6 @@
     width: clamp(300px,50vw,600px);
     height: 400px;
     position: absolute;
-    z-index: 1;
     left: 50%;
     top: 50px;
     transform: translate(-50%);
@@ -40,6 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 
 .header-slogan p{

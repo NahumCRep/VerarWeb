@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/header-styles/header.css';
+import '../../css/home-styles/header.css';
 
 const Header = () => {
     return(

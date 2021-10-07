@@ -1,0 +1,94 @@
+@import url('../root-variables.css');
+
+.info-container{
+    width: 95vw;
+    height: auto;
+    z-index:1;
+    margin: 1.5rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 10px 10px;
+    padding: .5rem;
+    grid-auto-flow: dense;
+    margin-top: 50px;
+}
+
+.grid-item{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 10px;
+}
+
+.grid-item p{
+    font-family: var(--raleway);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--black);
+    text-align: justify;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.grid-item p b{
+    font-family: var(--oswald);
+    font-size: 1.8rem;
+}
+
+/* .grid-item div{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .grid-item div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.grid-item div div p{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.grid-item div div i{
+    color: var(--black);
+} */
+
+.grid-item img{
+    width: 80%;
+    height: 80%;
+    /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  */
+}
+
+.grid-reverse{
+    direction: rtl;
+}
+
+/* @media screen and (min-width: 650px) and (max-width: 900px){
+     
+} */
+
+@media screen and (max-width: 650px){
+    .info-container{
+        margin-top: 1.2rem;
+        gap: 0 5px;
+    }
+    .grid-item p{
+        font-size: 1.3rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    .grid-item p b{
+        font-size: 1.5rem;
+    }
+
+    /* .grid-item img{
+        transform: rotate(-32deg);
+    } */
+}
+
+

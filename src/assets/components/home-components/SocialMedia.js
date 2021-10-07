@@ -1,13 +1,13 @@
 import React from 'react';
-import '../../css/header-styles/socialmedia.css';
+import '../../css/home-styles/socialmedia.css';
 
 const SocialMedia = () => {
     return(
         <div className="socialmedia-container">
-            <a href="/"><i className="fab fa-facebook-square fa-3x" title="facebook"></i></a>
-            <a href="/"><i className="fab fa-instagram-square fa-3x" title="instagram"></i></a>
-            <a href="/"><i className="fab fa-twitter-square fa-3x" title="twitter"></i></a>
-            <a href="/"><i className="fas fa-map-marker-alt fa-3x" title="map"></i></a>
+            <a href="/"><i className="fab fa-facebook-square fa-2x" title="facebook"></i></a>
+            <a href="/"><i className="fab fa-instagram-square fa-2x" title="instagram"></i></a>
+            <a href="/"><i className="fab fa-twitter-square fa-2x" title="twitter"></i></a>
+            <a href="/"><i className="fas fa-map-marker-alt fa-2x" title="map"></i></a>
         </div>
     )
 }

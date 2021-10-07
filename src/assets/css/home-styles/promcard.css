@@ -1,0 +1,140 @@
+@import url('../root-variables.css');
+
+
+.card-space{
+    width: 400px;
+    height: auto;
+    justify-self: center;
+    margin: 0;
+    /* background:brown; */
+}
+
+.infocard-container{
+    width: 400px;
+    height: auto;
+    position: relative;
+    /* justify-self: center; */
+    margin: 0;
+}
+
+.crd-title{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+
+.crd-title label{
+    font-family: var(--oswald);
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 20px;
+    z-index: 10;
+}
+
+.crd-title img{
+    position: absolute;
+}
+
+.crd-title img:first-child{
+    top: 75px;
+    transition: top 0.3s ease-in-out;
+    z-index: 5;
+}
+
+.img-up:first-child{
+    top: 65px;
+}
+
+.crd-title img:nth-child(2){
+    top: 75px;
+    z-index: 2;
+}
+
+.crd-title i{
+    cursor: pointer;
+    height: 20px;
+    position: absolute;
+    bottom: 15px;
+}
+
+.crd-title i:hover{
+    color: var(--green);
+}
+
+.crd-info{
+    width: 100%;
+    height: 0px;
+    /* background: var(--green); */
+    transition: height 0.3s ease-in-out;
+}
+
+.card-open{
+    height: 200px;
+}
+
+.card-border{
+    position: absolute;
+}
+
+.b-top, .b-top-left, .b-bot, .b-bot-right{
+    margin: 0;
+    padding: 0;
+}
+
+.b-top, .b-top-left{
+    background: var(--blue);
+}
+
+.b-bot, .b-bot-right{
+    background: var(--green);
+}
+
+.b-top{
+    width: 40%;
+    height: 10px;
+    top: 0;
+    left: 0;
+}
+.b-top-left{
+    width: 10px;
+    height: 40%;
+    top: 0;
+    left: 0;
+}
+
+.b-bot{
+    width: 40%;
+    height: 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.b-bot-right{
+    width: 10px;
+    height: 40%;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 650px){
+    .card-space{
+        width: 98vw;
+        margin: auto;
+    }
+
+    .infocard-container{
+        width: 98vw;
+    }
+
+    .crd-title{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
