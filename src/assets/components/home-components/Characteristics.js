@@ -1,33 +1,28 @@
 import React from 'react';
-import '../../css/home-styles/characteristics.css';
+// import '../../css/home-styles/characteristics.css';
+import Point from './Point';
+
+const ChtsStyle = {
+    width: '100vw',
+    height: 'auto',
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    gap: '20px 20px',
+    marginBottom: '50px',
+    marginTop: '20px',
+    boxSizing: 'border-box'
+}
 
 const Characteristics = () => {
     return (
-        <div className="chts-container">
-            <div className="chts-div">
-                <i className="fas fa-chevron-circle-right fa-2x"></i>
-                <p>Producto Sanitario</p>
-            </div>
-            <div className="chts-div">
-                <i className="fas fa-chevron-circle-right fa-2x"></i>
-                <p>No contiene Medicamentos</p>
-            </div>
-            <div className="chts-div">
-                <i className="fas fa-chevron-circle-right fa-2x"></i>
-                <p>Se adapta a tus movimientos</p>
-            </div>
-            <div className="chts-div">
-                <i className="fas fa-chevron-circle-right fa-2x"></i>
-                <p>Buen relajante muscular</p>
-            </div>
-            <div className="chts-div">
-                <i className="fas fa-chevron-circle-right fa-2x"></i>
-                <p>Dos puntos adhesivos garantizando 8 horas de adhesión en la piel</p>
-            </div>
-            <div className="chts-div">
-                <i className="fas fa-chevron-circle-right fa-2x"></i>
-                <p>Actúa eficazmente y ayuda a aliviar dolores en general (cabeza, muscular, etc)</p>
-            </div>        
+        <div className="chts-container" style={ChtsStyle}>
+            <Point content="Producto Sanitario" />
+            <Point content="No contiene Medicamentos" />
+            <Point content="Se adapta a tus movimientos" />
+            <Point content="Buen relajante muscular" />
+            <Point content="Dos puntos adhesivos garantizando 8 horas de adhesión en la piel" />
+            <Point content="Actúa eficazmente y ayuda a aliviar dolores en general (cabeza, muscular, etc)" />
         </div>
     )
 }

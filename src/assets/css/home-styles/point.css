@@ -1,0 +1,24 @@
+@import url('../root-variables.css');
+
+.chts-div{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: .5rem;
+    gap: 10px 10px;
+}
+.chts-div p{
+    font-family: var(--oswald);
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.chts-div i{
+    color: var(--black);
+}
+
+@media screen and (max-width: 650px){
+    .chts-div{
+        width: 80vw;
+    }
+}

@@ -7,15 +7,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(145,193,69); 
-    background: linear-gradient(90deg, rgba(145,193,69,1) 25%, rgba(0,159,227,1) 100%);
+    gap: 0 3rem;
+    background: var(--green);
+    /* background: rgb(145,193,69);  */
+    /* background: linear-gradient(90deg, rgba(145,193,69,1) 25%, rgba(0,159,227,1) 100%); */
     box-shadow: 0 5px 35px #000;
     z-index: 400;
 }
 
 .socialmedia-container a{
     text-decoration: none;
-    margin-right: 3rem;
     color: var(--black);
 }
 
