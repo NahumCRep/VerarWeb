@@ -39,15 +39,11 @@ const Home = () => {
                    <SvgAnimated />
                </div>
                <div className="content-div">
-                   {/* <ContentCard title="Nosotros" nvglink="aboutus"> 
-                        <p>Nuestra empresa esta específicamente pensada para proporcionar productos totalmente naturales, pero con un respaldo netamente científico</p>
-                        <a href="/aboutus">leer mas..</a>
-                   </ContentCard> */}
                    <ContentGrid>
                        <div className="grid__item">
-                           <img src={us} alt="" />
+                           <img src={us} alt="us-image" />
                        </div>
-                        <ContentCard title="Nosotros" nvglink="aboutus"> 
+                        <ContentCard title="Nosotros"> 
                             <p>Nuestra empresa esta específicamente pensada para proporcionar productos totalmente naturales, pero con un respaldo netamente científico</p>
                             <a href="/aboutus">leer mas..</a>
                         </ContentCard>

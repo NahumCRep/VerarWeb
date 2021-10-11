@@ -6,7 +6,6 @@
     margin: auto;
     padding: 2rem;
     display: grid;
-    /* background: red; */
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     grid-auto-flow: row;
 }
