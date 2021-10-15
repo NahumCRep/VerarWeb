@@ -2,6 +2,8 @@ import React from 'react';
 import '../../css/home-styles/promotionlayout.css';
 import PromotionCard from './PromotionCard';
 import InfCard from '../home-components/InfCard';
+
+
 import cupon from '../../images/cupons-white.png';
 import extra from '../../images/test_one.png';
 import tshirt from '../../images/tshirt1.png';
@@ -16,15 +18,18 @@ const blobs = [blb0, blb1, blb2, blb3, blb4];
 const PromotionLayout = () => {
     return(
         <div className="layout-container">
-            <InfCard title="Muestras de Prueba" img={extra} w="200px" h="150px" blob={blobs[2]}>
-                {/* <div className="hola">hola</div>    */}
-            </InfCard> 
-            <InfCard title="Cupones" img={cupon} w="150px" h="150px" blob={blobs[4]}>
-                {/* <div className="hola">hola</div>    */}
-            </InfCard> 
-            <InfCard className="ly-grid-item" title="Regalos Publicitarios" img={tshirt} w="150px" h="150px" blob={blobs[0]}>
-                {/* <div className="hola">hola</div>    */}
-            </InfCard> 
+            <PromotionCard title="Muestras" image={extra} imgW="200" imgH="150" crd="4">
+                <p>Entrega de muestras gratuitas y limitadas de los parches de salvia VERAR para su prueba</p>
+            </PromotionCard>
+            <PromotionCard title="Cupones" image={cupon} imgW="140" imgH="140" crd="3">
+               <p>Cupones de <b>10</b>, <b>30</b> y <b>50%</b> de descuento a nuestros clientes</p>
+            </PromotionCard>
+            <PromotionCard title="Regalos Prublicitarios" image={tshirt} imgW="140" imgH="140"  crd="2">
+                <p>Entrega de artículos útiles con nuestro logo y eslogan a nuestros clientes más frecuentes. <br/><br/>
+                Estos también pueden ser aquiridos por un costo según el articulo. 
+                </p>
+                <a href="/products">ver..</a>
+            </PromotionCard>
         </div>
     )
 }

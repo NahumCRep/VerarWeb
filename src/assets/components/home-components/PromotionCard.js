@@ -1,23 +1,29 @@
 import React, { Children, useState } from 'react';
 import '../../css/home-styles/promotioncard.css';
+import pwv0 from '../../svg/promotion-svg/pwv0.svg';
+import pwv1 from '../../svg/promotion-svg/pwv1.svg';
+import pwv2 from '../../svg/promotion-svg/pwv2.svg';
+import pwv3 from '../../svg/promotion-svg/pwv3.svg';
+import pwv4 from '../../svg/promotion-svg/pwv4.svg';
 
+const svglist = [pwv0, pwv1, pwv2, pwv3, pwv4];
 const PromotionCard = (props) => {
     // const [icon,setIcon] = useState(false);
     const [open,setOpen] = useState(false);
 
     return(
-        <div className="prom-container" onClick={() => setOpen(!open)}>
-            <div className="prom-title">
-                <label>{props.title}</label>
-                <i 
-                    className={`fas fa-caret-square-${open ? 'up':'down'} fa-2x`} 
-                    onClick={() => setOpen(!open)}
-                ></i>
+        <div className="promcard-container" onClick={() => setOpen(!open)}>
+            <div className="promcard-svg-container">
+                <img className="promcard-svg" src={svglist[props.crd]} alt="svg image"/>
             </div>
-            <div className={`prom-info ${open ? 'prom-open':''}`} >
-               {props.children}
+            <div className="promcard-title">
+                <h3>{props.title}</h3>
+                <img src={props.image} alt="promotion image" width={props.imgW + "px"} height={props.imgH + "px"} />
             </div>
-        </div>
+            <div className="promcard-content flex-row-center">
+                {props.children}
+            </div>
+        </div> 
     )
 }
 

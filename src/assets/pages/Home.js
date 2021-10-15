@@ -39,17 +39,29 @@ const Home = () => {
                    <SvgAnimated />
                </div>
                <div className="content-div">
-                   <ContentGrid>
+                    <ContentGrid>
                        <div className="grid__item">
                            <img src={us} alt="us-image" />
                        </div>
                         <ContentCard title="Nosotros"> 
                             <p>Nuestra empresa esta específicamente pensada para proporcionar productos totalmente naturales, pero con un respaldo netamente científico</p>
-                            <a href="/aboutus">leer mas..</a>
+                            <a href="/aboutus">Leer mas..</a>
                         </ContentCard>
-                   </ContentGrid>
+                    </ContentGrid>
+
+                    <ContentGrid>
+                        <ContentCard title="Parches VERAR"> 
+                            <p>Nuestro producto está pensado para todas aquellas personas que buscan alternativas naturales a sus dolencias. <br/><br/> Los parches VERAR pueden ser usado por toda la familia por sus componentes naturales y no perjudiciales a corto o largo plazo hacia la salud y medio ambiente</p>
+                            <a href="/products">Ver mas..</a>
+                        </ContentCard>
+                        <div className="grid__item">
+                           <img src={pack} alt="us-image" />
+                       </div>
+                    </ContentGrid>
+
+                    <div className="promo-divider"> <h2>Promoción de Ventas</h2> </div>
+                    <PromotionLayout />
                </div>
-               {/* <PromotionLayout /> */}
            </div>
            
            <div>Footer</div>

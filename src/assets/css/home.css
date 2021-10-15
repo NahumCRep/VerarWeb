@@ -20,8 +20,6 @@
     background: var(--white);
     overflow: hidden;
     border: none;
-    /* transform: translateY(-10px); */
-    /* border: 1px solid #000; */
 }
 
 .content-div{
@@ -30,9 +28,39 @@
     background: var(--white);
 }
 
+.promo-divider{
+    width: 80vw;
+    height: 50px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    /* border: 20px inset var(--blue);  */
+    /* background: var(--blue); */
+    border-bottom: 5px solid var(--blue);
+}
+
+.promo-divider h2{
+    font-family: var(--oswald);
+    font-size: 3rem;
+    color: var(--green);
+    text-shadow: 2px 2px 2px #273746;
+}
+
 @media screen and (max-width: 650px){
     .divider{
         height: 100px;
+    }
+
+    .promo-divider{
+        margin-top: 5rem;
+    }
+
+    .promo-divider h2{
+        font-size: 1.7rem;
     }
 }
 
