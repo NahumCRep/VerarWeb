@@ -1,0 +1,42 @@
+.location-container{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-image-container{
+    width: 100%;
+    height: 0px;
+    transition: height .6s ease-in-out;
+}
+.loc-img-open{ height: 300px;}
+
+.location-img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+}
+.loc-img-show{
+    animation-duration: 1s;
+    animation-name: show;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.map-container{
+    width: 100%;
+    height: 300px;
+}

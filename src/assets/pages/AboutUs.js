@@ -1,31 +1,34 @@
 import React from 'react';
 import '../css/aboutus-styles/aboutus.css';
-import usimage from '../images/aboutus/us-page.jpg';
+import Imglocation from '../images/aboutus/location.jpg';
 import AboutUsCard from '../components/aboutus-components/AboutUsCard';
+import Location from '../components/aboutus-components/Location';
 
 
 const AboutUs = () => {
     return(
         <div className="us-page-body">
-            <div className="abtUs-body">
-                <div className="abtUs-img">
-                    <img src={usimage} alt="us page image" />
-                </div>
-                <div className="abtUs-content">
-                    <AboutUsCard title="Misión">
-                        Somos una empresa innovadora, que busca soluciones naturales para aliviar los problemas de salud de nuestros clientes
-                    </AboutUsCard>
-                    <AboutUsCard title="Visión">
-                        Ser una marca líder y reconocida a nivel nacional e internacional en productos naturales para fortalecer la salud y el bienestar de nuestros clientes
-                    </AboutUsCard>
-                    <AboutUsCard title="Objetivo">
-                        Convertirnos en la marca líder en productos naturales para la salud
-                    </AboutUsCard>
-                </div>
+            <div className="us-page-container">
+                <AboutUsCard title="Empresa" algH="h-center">
+                    <p>Esta es una Empresa fictícea por lo que <b>NO EXISTE</b>, la información, los productos y servicios que aquí se presentan <b>NO SON REALES</b>.
+                    Este sitio web fue realizado a modo de practica utilizando un proyecto universitario como temática.</p>
+                </AboutUsCard>
+                <AboutUsCard title="Misión" algH="h-left">
+                    <p>Somos una empresa innovadora, que busca soluciones naturales para aliviar los problemas de salud de nuestros clientes</p>
+                </AboutUsCard>
+                <AboutUsCard title="Visión" algH="h-left">
+                    <p>Ser una marca líder y reconocida a nivel nacional e internacional en productos naturales para fortalecer la salud y el bienestar de nuestros clientes</p>
+                </AboutUsCard>
+                <AboutUsCard title="Objetivo" algH="h-left">
+                    <p>Convertirnos en la marca líder en productos naturales para la salud</p>
+                </AboutUsCard>
+                <AboutUsCard title="Ubicación" algH="h-center">
+                    <p>Estamos ubicados en Calle Dr. Damasco Elías Ulloa, Chitré, Distrito Chitré, Panamá</p>
+                    <div className="ubi-container">
+                        <Location direction="Calle Dr. Damasco Elías Ulloa" img={Imglocation} latitude="7.9560329" longitude="-80.4314711" />
+                    </div>
+                </AboutUsCard>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#009fe3" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-            </svg>
         </div>
     )
 }
