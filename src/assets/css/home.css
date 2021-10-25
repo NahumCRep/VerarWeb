@@ -22,6 +22,20 @@
     border: none;
 }
 
+.divider-bot{
+    width: 100%;
+    height: 200px;
+    margin-top: 2.5rem;
+    background: none;
+    overflow: hidden;
+    border: none;
+    
+}
+
+.d-rotate{
+    transform: rotate(180deg);
+}
+
 .content-div{
     width: 100%;
     height: auto;
@@ -50,11 +64,14 @@
     text-shadow: 2px 2px 2px #273746;
 }
 
+
 @media screen and (max-width: 650px){
     .divider{
         height: 100px;
     }
-
+    .divider-bot{
+        height: 100px;
+    }
     .promo-divider{
         margin-top: 5rem;
     }

@@ -72,6 +72,7 @@
     height: auto;
     font-family: var(--raleway);
     font-size: 1rem;
+    line-height: 1.5;
 }
 
 .promcard-content p b{

@@ -21,6 +21,7 @@
 }
 
 .socialmedia-container a:hover{
-    color: var(--white);
+    color: #273746;
+    filter: drop-shadow(1px 1px .5px #000000);
 }
 
