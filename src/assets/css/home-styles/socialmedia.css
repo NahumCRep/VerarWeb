@@ -21,7 +21,14 @@
 }
 
 .socialmedia-container a:hover{
-    color: #273746;
-    filter: drop-shadow(1px 1px .5px #000000);
+    /* color: #273746;
+    filter: drop-shadow(1px 1px .5px #000000); */
+    color:var(--white);
+    text-shadow:   1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #273746,
+    1px 5px 1px #273746,
+    1px 6px 1px #273746;
 }
 

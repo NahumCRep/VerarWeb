@@ -27,7 +27,7 @@
 .grid-item p{
     font-family: var(--raleway);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--black);
     text-align: justify;
     line-height: 1.8;
@@ -36,29 +36,8 @@
 
 .grid-item p b{
     font-family: var(--oswald);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
-
-/* .grid-item div{
-    display: flex;
-    flex-direction: column;
-} */
-
-/* .grid-item div div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.grid-item div div p{
-    font-size: 1.3rem;
-    margin-top: 10px;
-}
-
-.grid-item div div i{
-    color: var(--black);
-} */
 
 .grid-item img{
     width: 80%;

@@ -1,0 +1,43 @@
+@import url('../root-variables.css');
+
+.footlist-container{
+    /* width: max-content; */
+    display: inline-block;
+    height: auto;
+    color: var(--white);
+}
+
+.footlist-list{
+    margin-top: 10px;
+}
+
+.footlist-list li{
+    height: 20px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+
+.footlist-list li a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footlist-list li a:hover{
+    color: #B3B6B7;
+}
+
+.footer-flx-col{
+    flex-direction: column;
+}
+
+.footer-flx-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media screen and (max-width: 650px){
+
+}

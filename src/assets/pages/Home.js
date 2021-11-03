@@ -18,6 +18,7 @@ import ContentGrid from '../components/home-components/ContentGrid';
 import ContentCard from '../components/home-components/ContentCard';
 import ContactForm from '../components/home-components/ContactForm';
 
+
 const images = [inf_f, inf_s, inf_t, inf_fo, inf_bx, pack];
 
 
@@ -73,8 +74,6 @@ const Home = () => {
                     <ContactForm />
                 </div>
             </div>
-
-            <div>Footer</div>
         </div>
     )
 }
