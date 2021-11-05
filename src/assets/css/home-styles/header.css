@@ -75,6 +75,9 @@
     background: var(--green);
     box-shadow: 2px 2px 5px #000;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-btn:hover{
