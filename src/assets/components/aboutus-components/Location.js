@@ -10,7 +10,7 @@ const Location = ({ direction, img, latitude, longitude }) => {
     return (
         <div className="location-container">
             <div className={`location-image-container ${showi ? 'loc-img-open' : ''}`}>
-                <img className={`location-img ${showi ? 'loc-img-show':''}`} src={img} alt="location image" />
+                <img className={`location-img ${showi ? 'loc-img-show':''}`} src={img} alt="location" />
             </div>
             <div className="map-container">
                 {/* <Map direc={direction} lat={latitude} lon={longitude} handleshowi={HandleShowi}/> */}

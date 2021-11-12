@@ -5,7 +5,7 @@ const FooterList = (props) => {
     return(
         <div className="footlist-container" >
             <h5>{props.title}</h5>
-            <ul className={`footlist-list ${props.flexd == "col" ? 'footer-flx-col':'footer-flx-row'}`}>
+            <ul className={`footlist-list ${props.flexd === "col" ? 'footer-flx-col':'footer-flx-row'}`}>
                 {props.children}
             </ul>
         </div>

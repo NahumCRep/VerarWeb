@@ -2,8 +2,11 @@
 
 .products-body{
     width: 100%;
-    height: 100%;
-    background-color: brown;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-top: 2px solid var(--blue);
 }
 
 .second-nav{
@@ -14,21 +17,23 @@
 
 .product-container{
     width: 100%;
-    height: 500px;
+    height: 92%;
     background:indigo;
     display: flex;
+    overflow-y: hidden;
 }
 
 .product-side-menu{
     width: 300px;
     height: 100%;
-    background:khaki;
+    background: var(--white);
 }
 
 .product-content{
     width: 100%;
     height: 100%;
-    background:lightblue;
+    background:#ABB2B9;
+    padding: 1rem;
 }
 
 .product-list{
