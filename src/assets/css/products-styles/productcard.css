@@ -2,7 +2,7 @@
 
 .pcard-container{
     width: 250px;
-    height: 350px;
+    height: 330px;
     background: #ECF0F1;
     padding: .5rem;
     border-radius: 5px;
@@ -60,12 +60,12 @@
 
 .pcard-button-cont{
     padding-top: .5rem;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .pcard-button-cont button{
     width: 100%;
-    height: 50px;
+    height: 35px;
     background: var(--green);
     cursor: pointer;
     border: none;
