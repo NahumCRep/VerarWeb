@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import '../../assets/css/aboutus-styles/location.css';
+import '../../css/aboutus-styles/location.css';
 // import 'leaflet/dist/leaflet.css';
 // import IconLocation from './IconLocation';
 

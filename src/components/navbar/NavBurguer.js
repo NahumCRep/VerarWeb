@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../assets/css/navbar-styles/navbar-burger.css';
+// import '../assets/css/navbar-styles/navbar-burguer.css';
+import '../../css/navbar-styles/navbarburguer.css';
 
 const NavBurguer = ({ onClick, mode }) => {
     return(

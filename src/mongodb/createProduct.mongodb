@@ -1,0 +1,24 @@
+use('verarstore');
+
+db.products.insertOne({
+        "category":"mascarillas",
+        "products":[
+            {
+                "id":"mask",
+                "name": "Mascarilla Verar",
+                "price": [
+                    {"usd": 2.99}
+                ],
+                "stock": 50,
+                "description": "Mascarrilla con el logo de la marca Verar",
+                "colors": [
+                    {   
+                        "white": "mascarrilas/mak3.jpg",
+                        "green": "mascarrilas/mak1.jpg",
+                        "blue": "mascarrilas/mak2.jpg"
+                    }
+                ]
+            }
+        ]
+});
+

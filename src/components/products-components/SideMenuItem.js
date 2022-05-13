@@ -1,5 +1,6 @@
 import React , {useState} from 'react';
-import '../../assets/css/products-styles/sidemenuitem.css';
+// import { NavLink } from 'react-router-dom';
+import '../../css/products-styles/sidemenuitem.css';
 
 const SideMenuItem = ({ky, text, sublist, onClick}) => {
     const [isActive, setActive] = useState(false);
@@ -27,7 +28,4 @@ const SideMenuItem = ({ky, text, sublist, onClick}) => {
         </li>
     )
 }
-// jovada
-// para poder colocar la firma en ese formulario
-// ultimo recibo de matricula --- agustina reyes 
 export default SideMenuItem;

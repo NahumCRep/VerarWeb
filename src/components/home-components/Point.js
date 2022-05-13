@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/home-styles/point.css';
+import '../../css/home-styles/point.css';
 
 const Point = (props) => {
     return(

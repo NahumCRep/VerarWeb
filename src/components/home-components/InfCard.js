@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import '../../css/home-styles/promotioncard.css';
-import '../../assets/css/home-styles/promcard.css';
+import '../../css/home-styles/promcard.css';
 
 const onHover = (e) => {
     e.target.style.top = '65px';

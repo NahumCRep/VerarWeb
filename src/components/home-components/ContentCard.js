@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/home-styles/contentcard.css';
+import '../../css/home-styles/contentcard.css';
 
 const ContentCard = ({title, children}) => {
     return(

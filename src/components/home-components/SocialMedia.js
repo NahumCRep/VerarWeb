@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/home-styles/socialmedia.css';
+import '../../css/home-styles/socialmedia.css';
 
 const SocialMedia = () => {
     return(

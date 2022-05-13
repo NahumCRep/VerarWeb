@@ -1,15 +1,15 @@
 import React from 'react';
-import '../../assets/css/products-styles/productcard.css';
+import '../../css/products-styles/productcard.css';
 
 const ProductCard = (props) => {
     return(
         <div className="pcard-container">
             <div className="pcard-img">
-                <img src={props.image} />
+                <img src={props.image} alt="product img" />
             </div>
             <div className="pcard-content">
                 <div className="pcard-title">
-                    <h4 onClick={() => alert('titulo')} >{props.title}</h4>
+                    <h4 onClick={() => alert(props.title)} >{props.title}</h4>
                 </div>        
                 <div className="pcard-price">
                     <label>precio unitario:</label>

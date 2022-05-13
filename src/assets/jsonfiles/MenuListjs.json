@@ -1,0 +1,35 @@
+{
+    "menuList":[
+        {
+            "id": "parches",
+            "text": "Parches"
+        },
+        {
+            "id": "ropa",
+            "text": "Ropa",
+            "submenu":[
+                {
+                    "id": "camisetas",
+                    "text": "Camisetas"
+                },
+                {
+                    "id": "batas",
+                    "text": "Batas"
+                }
+            ]
+        },
+        {
+            "id": "mascarillas",
+            "text": "Mascarillas"
+        },
+        {
+            "id": "gorras",
+            "text": "Gorras"
+        },
+        {
+            "id": "oficina",
+            "text": "Articulos de Oficina"
+        }
+    ]
+}
+

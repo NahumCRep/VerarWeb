@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/svganimated.css';
+import '../../css/svganimated.css';
 
 const SvgAnimated = () => {
     return (

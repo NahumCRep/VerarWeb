@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/footerstyle/footer.css';
+import '../../css/footerstyle/footer.css';
 import { Link } from 'react-router-dom';
 import vicon from '../../assets/images/icons/verarwhite.png';
 import FooterList from './FooterList';
@@ -11,7 +11,7 @@ const Footer = () => {
                 <img src={vicon} alt="verar icon" />
                 <div className="footer-navigation">
                     <Link className="footer-nav" to="/">Inicio</Link>
-                    <Link className="footer-nav" to="/products">Productos</Link>
+                    <Link className="footer-nav" to="/products">Producto</Link>
                     <Link className="footer-nav" to="/aboutus">Sobre Nosotros</Link>
                 </div>
             </div>

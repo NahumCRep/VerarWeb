@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/footerstyle/footerlist.css';
+import '../../css/footerstyle/footerlist.css';
 
 const FooterList = (props) => {
     return(

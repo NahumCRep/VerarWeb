@@ -1,0 +1,83 @@
+@import url('../root-variables.css');
+
+.flex-row-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promcard-container{
+    height: 400px;
+    background: var(--white);
+    box-shadow: 5px 5px 20px var(--black);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.promcard-title{
+    width: 100%;
+    height: 60%;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+    background-color: var(--blue);
+}
+
+.promcard-title img{
+    transition: all 0.3s ease-in-out;
+}
+
+.promcard-container:hover > .promcard-title img{
+    filter: drop-shadow(5px 5px 10px #273746);
+}
+
+.promcard-title h3{
+    font-family: var(--oswald);
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.promcard-content{
+    flex-grow: 1;
+    width: 100%;
+    padding: 1rem;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.promcard-content p{
+    width: 100%;
+    height: auto;
+    font-family: var(--raleway);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.promcard-content p b{
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+.promcard-content a{
+    width: 100%;
+    text-decoration: none;
+    text-align: end;
+    padding-right: 1.5rem;
+    color: var(--blue);
+    margin-top: 10px;
+    font-size: 1.2rem;
+    justify-self: flex-end;
+}
+
+.promcard-content a:hover{
+    color: var(--green); 
+}

@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Parches Verar",
+        "category":"parches",
+        "price": 9.99,
+        "stock": 50,
+        "description": "Los parches de salvia VERAR están fabricados con algodón y tienen una medida de 15 x 7 cm. Tienen Sus 2 puntos adhesivos permiten sujetar el parche a la piel, para así asegurar que se queden en el sitio. Los parches VERAR puede ser usado por toda la familia por sus componentes naturales y no perjudiciales a corto o largo plazo hacia la salud y medio ambiente.",
+        "images": [
+            "/images/productos/parches/parches_0.jpg",
+            "/images/productos/parches/parches_1.jpg"
+        ]
+    },
+    {
+        "name": "camiseta verar blanca",
+        "category":"camisetas",
+        "price": 3.99,
+        "stock": 50,
+        "description": "Camiseta con el logo de la marca Verar",
+        "colors":[{
+            "white": [
+                "camisetas/camiseta-b-h.jpg",
+                "camisetas/camiseta-b-m.jpg"
+            ]
+        }]
+    },
+    {
+        "name": "camiseta verar verde y azul",
+        "category":"camisetas",
+        "price": 3.99,
+        "stock": 50,
+        "description": "Camiseta Color Verde y Azul con el logo de la marca Verar",
+        "images": ["camisetas/camiseta-va.jpg"]
+    }, 
+    {
+        "name": "Bata de laboratorio Verar",
+        "category": "batas",
+        "price": 6.99,
+        "stock": 50,
+        "description": "Bata de laboratorio con el logo de la marca Verar",
+        "colors": [{
+            "white":[
+                "batas/bata_0.jpg",
+                "batas/bata_1.jpg"
+            ]           
+        }]
+    },
+    {
+        "name": "Gorra Verar blanca",
+        "category":"gorras",
+        "price": 3.99,
+        "stock": 50,
+        "description": "Gorra con el logo de la marca Verar",
+        "colors": [{
+            "white":[
+                "gorras/gorra-b-1.jpg",
+                "gorras/gorra-b-2.jpg"
+            ]           
+        }]
+    },
+    {
+        "name": "Mascarilla Verar",
+        "category":"mascarillas",
+        "price": 2.99,
+        "stock": 50,
+        "description": "Mascarrilla con el logo de la marca Verar",
+        "colors": [
+            {   
+                "white": ["mascarrilas/mak3.jpg"],
+                "green": ["mascarrilas/mak1.jpg"],
+                "blue": ["mascarrilas/mak2.jpg"]
+            }
+        ]
+    },
+    {
+        "name": "Kit de Oficina",
+        "category":"oficina",
+        "price": 5.99,
+        "stock": 50,
+        "description": "Kit de articulos de oficina",
+        "images": [
+              "oficina/kit-papeleria.jpg" 
+        ]
+    },
+    {
+        "name": "Carnet",
+        "category":"oficina",
+        "price": 0.50,
+        "stock": 50,
+        "description": "Carnet de oficina Verar",
+        "images": [
+              "oficina/carnet.jpg" 
+        ]
+    },
+    {
+        "name": "Carpeta",
+        "category":"oficina",
+        "price": 0.75,
+        "stock": 50,
+        "description": "Carpeta de oficina Verar",
+        "images": [
+              "oficina/carpeta.jpg" 
+        ]
+    },
+    {
+        "name": "Colgante",
+        "category":"oficina",
+        "price": 0.50,
+        "stock": 50,
+        "description": "Colgante de oficina Verar",
+        "images": [
+              "oficina/colgante.jpg" 
+        ]
+    },
+    {
+        "name": "Sobre",
+        "category":"oficina",
+        "price": 0.25,
+        "stock": 50,
+        "description": "Sobre de oficina Verar",
+        "images": [
+              "oficina/sobre.jpg" 
+        ]
+    },
+    {
+        "name": "Tarjeta",
+        "category":"oficina",
+        "price": 0.20,
+        "stock": 50,
+        "description": "Tarjeta de oficina Verar",
+        "images": [
+              "oficina/tarjeta.jpg" 
+        ]
+    }
+]

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import '../../assets/css/aboutus-styles/location.css';
+import '../../css/aboutus-styles/location.css';
 // import Map from './Map';
 
 const Location = ({ direction, img, latitude, longitude }) => {

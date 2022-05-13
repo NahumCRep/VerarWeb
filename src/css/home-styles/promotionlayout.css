@@ -1,0 +1,23 @@
+@import url('../root-variables.css');
+
+
+.layout-container{
+    width: 80vw;
+    height: auto;
+    padding: 1rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 650px){
+    .layout-container{
+        padding: 0;
+        height: auto;
+    }
+}
+
+
+

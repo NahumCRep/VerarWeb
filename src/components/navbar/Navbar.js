@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../../assets/css/navbar-styles/navbar.css';
+import '../../css/navbar-styles/navbar.css';
 import logo from '../../assets/images/logo-noletters.png';
 import NavBurguer from './NavBurguer';
 
@@ -24,7 +24,7 @@ const Navbar = () => {
                     exact
                     onClick={closeMenu}
                 >
-                    Home
+                    Inicio
                 </NavLink>
                 <NavLink 
                     className="nav-link" 
@@ -32,7 +32,7 @@ const Navbar = () => {
                     activeClassName="navlink-active"
                     onClick={closeMenu}
                 >
-                    Products
+                    Producto
                 </NavLink>
                 <NavLink 
                     className="nav-link" 
@@ -40,7 +40,7 @@ const Navbar = () => {
                     activeClassName="navlink-active"
                     onClick={closeMenu}
                 >
-                    About Us
+                    Nosotros
                 </NavLink>
             </div>
             <NavBurguer mode={active} onClick={handleOpen} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/home-styles/promotionlayout.css';
+import '../../css/home-styles/promotionlayout.css';
 import PromotionCard from './PromotionCard';
 import InfCard from '../home-components/InfCard';
 
@@ -25,10 +25,8 @@ const PromotionLayout = () => {
                <p>Cupones de <b>10</b>, <b>30</b> y <b>50%</b> de descuento a nuestros clientes</p>
             </PromotionCard>
             <PromotionCard title="Regalos Prublicitarios" image={tshirt} imgW="140" imgH="140"  crd="2">
-                <p>Entrega de artículos útiles con nuestro logo y eslogan a nuestros clientes más frecuentes. <br/><br/>
-                Estos también pueden ser aquiridos por un costo según el articulo. 
-                </p>
-                <a href="/products">ver..</a>
+                <p>Entrega de artículos útiles con nuestro logo y eslogan a nuestros clientes más frecuentes</p>
+                {/* <a href="/products">ver..</a> */}
             </PromotionCard>
         </div>
     )

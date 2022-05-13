@@ -1,0 +1,87 @@
+@import url('../root-variables.css');
+
+.header-container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: var(--black);
+    /* z-index: 100; */
+}
+
+.header-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    background-image: url('../../assets/images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* z-index: 1; */
+}
+
+@media screen and (max-width: 650px){
+    .header-container::after{
+        background-position: right;
+    } 
+}
+
+.header-slogan{
+    width: clamp(300px,50vw,600px);
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.header-slogan p{
+    font-size: 2.2rem;
+    font-family: var(--oswald);
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+    text-shadow: 2px 2px 5px #000;
+}
+.header-slogan p b{
+    font-size: 2rem;
+    font-family: var(--raleway);
+    font-weight: 600;
+    color: var(--green);
+    text-shadow: 2px 2px 5px #000;
+}
+
+.header-btn{
+    width: 150px;
+    height: 40px;
+    padding: .5rem;
+    margin-top: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-weight: 600;
+    background: var(--green);
+    box-shadow: 2px 2px 5px #000;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn:hover{
+    background: var(--blue);
+    color: var(--white);
+}
+

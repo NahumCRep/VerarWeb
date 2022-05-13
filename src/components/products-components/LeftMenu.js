@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import '../../assets/css/products-styles/leftmenu.css';
+import React from 'react';
+import '../../css/products-styles/leftmenu.css';
 import ProductContext from '../../contexts/ProductContext';
-import MenuList from './MenuListjs.json';
+import MenuList from '../../assets/jsonfiles/MenuListjs.json';
 import SideMenuItem from './SideMenuItem';
 
 const LeftMenu = () => {

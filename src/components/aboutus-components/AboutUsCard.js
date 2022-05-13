@@ -1,6 +1,6 @@
 import React from 'react';
 // import '../../css/aboutus-styles/aboutuscard.css';
-import '../../assets/css/aboutus-styles/aboutuscard.css';
+import '../../css/aboutus-styles/aboutuscard.css';
 
 const AboutUsCard = (props) => {
     return(
