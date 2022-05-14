@@ -5,8 +5,9 @@
     --black: #1C2833;
     --cormorant: 'Cormorant Garamond', serif;
     --playfair: 'Playfair Display', serif;
-    --oswald: 'Nunito', sans-serif;
+    /* --oswald: 'Nunito', sans-serif; */
     --raleway: 'Nunito',  sans-serif;
-    /* --oswald: 'Oswald', sans-serif;
-    --raleway: 'Raleway', sans-serif; */
+    --nunito: 'Nunito',  sans-serif;
+     --oswald: 'Oswald', sans-serif; 
+    /*--raleway: 'Raleway', sans-serif; */
   }
