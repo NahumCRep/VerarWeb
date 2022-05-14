@@ -6,7 +6,7 @@ const PromotionCard = (props) => {
         <div className="promcard-container">
             <div className="promcard-title">
                 <h3>{props.title}</h3>
-                <img src={props.image} alt="promotion image" width={props.imgW + "px"} height={props.imgH + "px"} />
+                <img src={props.image} alt="promotion svg" width={props.imgW + "px"} height={props.imgH + "px"} />
             </div>
             <div className="promcard-content flex-row-center">
                 {props.children}

@@ -1,19 +1,10 @@
 import React from 'react';
 import '../../css/home-styles/promotionlayout.css';
 import PromotionCard from './PromotionCard';
-import InfCard from '../home-components/InfCard';
-
 
 import cupon from '../../assets/images/cupons-white.png';
 import extra from '../../assets/images/test_one.png';
 import tshirt from '../../assets/images/tshirt1.png';
-// import blb0 from '../../images/blob0.png';
-// import blb1 from '../../images/blob1.png';
-// import blb2 from '../../images/blob2.png';
-// import blb3 from '../../images/blob3.png';
-// import blb4 from '../../images/blob4.png';
-
-// const blobs = [blb0, blb1, blb2, blb3, blb4];
 
 const PromotionLayout = () => {
     return(

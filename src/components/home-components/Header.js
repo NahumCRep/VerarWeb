@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../css/home-styles/header.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Header = () => {
     return(
