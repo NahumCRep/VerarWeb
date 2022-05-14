@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <div className="footer-copyright" >
                 {/* <img src={vicon} alt="verar icon" /> */}
-                <p>Copyright &copy; 2021 | verarhealth.com</p>
+                <p>Copyright &copy; 2021 | desarrollado por Nahum Casco | proyecto e imagenes por Ashly Bethancurt</p>
             </div>
         </div>
     )
