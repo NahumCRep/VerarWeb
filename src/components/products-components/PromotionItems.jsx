@@ -8,9 +8,9 @@ const PromotionItems = () => {
             {
                 mockup.map((item) => {
                     return (
-                        <button key={item.name} className='product_page_mockup_div'>
+                        <div key={item.name} className='product_page_mockup_div'>
                             <img src={item.img} alt={item.name} />
-                        </button>
+                        </div>
                     )
                 })
             }
