@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/aboutus-styles/aboutus.css';
+import '../css/pages/aboutus.css';
 import Imglocation from '../assets/images/aboutus/location.jpg';
 import AboutUsCard from '../components/aboutus-components/AboutUsCard';
 import Location from '../components/aboutus-components/Location';
@@ -12,7 +12,7 @@ const AboutUs = () => {
                 <AboutUsCard title="Empresa" algH="h-center">
                     <p>Esta es una Empresa fictícea por lo que <b>NO EXISTE</b>, la información, los productos y servicios que aquí se presentan <b>NO SON REALES</b>.
                     Este sitio web fue realizado a modo de practica utilizando un proyecto universitario como temática.</p>
-                    <p>El proyecto, el logo y las imagenes fueron hechas por <a href='https://www.instagram.com/ashlylv11/' target='_blank' rel="noreferrer">Ashly Bethancurt</a></p>
+                    <p>El proyecto, el logo y las imagenes fueron hechas por <a href='https://www.instagram.com/ashlylv11/' target='_blank' rel="noreferrer">Ashly Bethancourt</a></p>
                 </AboutUsCard>
                 <AboutUsCard title="Misión" algH="h-left">
                     <p>Somos una empresa innovadora, que busca soluciones naturales para aliviar los problemas de salud de nuestros clientes</p>

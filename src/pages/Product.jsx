@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/products-styles/product.css'
+import '../css/pages/product.css'
 import packageImg from '../assets/images/inf-p-4.png'
 import packageBack from '../assets/images/inf-p-1.jpg'
 import PromotionItems from '../components/products-components/PromotionItems'

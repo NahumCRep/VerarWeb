@@ -1,10 +1,7 @@
-@import url('../root-variables.css');
-
 .info-container{
     width: 95vw;
     height: auto;
     z-index:1;
-    /* background: var(--blue); */
     margin: auto;
     margin-top: 50px;
     display: grid;
@@ -25,7 +22,7 @@
 }
 
 .grid-item p{
-    font-family: var(--raleway);
+    font-family: var(--nunito);
     font-weight: 600;
     font-size: 1.2rem;
     color: var(--black);
@@ -42,16 +39,11 @@
 .grid-item img{
     width: 80%;
     height: 80%;
-    /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);  */
 }
 
 .grid-reverse{
     direction: rtl;
 }
-
-/* @media screen and (min-width: 650px) and (max-width: 900px){
-     
-} */
 
 @media screen and (max-width: 650px){
     .info-container{
@@ -66,10 +58,6 @@
     .grid-item p b{
         font-size: 1.5rem;
     }
-
-    /* .grid-item img{
-        transform: rotate(-32deg);
-    } */
 }
 
 

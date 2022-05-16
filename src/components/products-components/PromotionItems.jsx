@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/products-styles/product.css'
+import '../../css/products-styles/promotionitems.css'
 import mockup from '../../assets/mockup'
 
 const PromotionItems = () => {

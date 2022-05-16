@@ -1,17 +1,11 @@
 import React from 'react';
-import '../css/home-styles/home.css';
-
-import inf_f from '../assets/images/inf-p-0.jpg';
-import inf_s from '../assets/images/inf-p-1.jpg';
-import inf_t from '../assets/images/inf-p-2.jpg';
-import inf_fo from '../assets/images/inf-p-3.png';
+import '../css/pages/home.css';
 import inf_bx from '../assets/images/box.png';
 import pack from '../assets/images/box1.png';
 import us from '../assets/images/us.png';
 
 import {
     Header,
-    SocialMedia,
     InfoCard,
     PromotionLayout,
     Characteristics,
@@ -21,15 +15,13 @@ import {
     ContactForm
 } from '../components/home-components';
 
-const images = [inf_f, inf_s, inf_t, inf_fo, inf_bx, pack];
-
 const Home = () => {
     return (
         <div className="home-page">
             <Header />
-            <SocialMedia />
+            <div className='divider_decoration'></div>
             <main className="home-body">
-                <InfoCard direction="" imgs={images[4]}>
+                <InfoCard direction="" imgs={inf_bx}>
                     <p>
                         Buscando una alternativa para ayudar a las personas con sus dolencias
                         hemos creado los <b>parches de salvia VERAR</b>. La base de este es la planta de salvia,

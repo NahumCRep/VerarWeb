@@ -1,5 +1,4 @@
 export { default as Header } from './Header';
-export { default as SocialMedia } from './SocialMedia';
 export { default as InfoCard } from './InfoCard';
 export { default as PromotionLayout } from './PromtionLayout';
 export { default as Characteristics } from './Characteristics';

@@ -1,5 +1,3 @@
-@import url('../root-variables.css');
-
 .footer-container{
     width: 100%;
     height: auto;
@@ -54,9 +52,7 @@
     font-family: var(--oswald);
 }
 
-
 .footer-copyright p{
-    /* font-size: .9rem; */
     color: var(--white);
 }
 

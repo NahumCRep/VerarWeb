@@ -1,9 +1,8 @@
 import React from 'react';
-import './css/app.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import { Home, AboutUs, Product } from './pages/component-pages';
+import { Home, AboutUs, Product } from './pages';
 
 const App = () => {
     return(

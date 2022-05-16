@@ -1,3 +1,17 @@
+:root{
+  --green: #91c145;
+  --blue: #009fe3;
+  --white: #ECF0F1;
+  --black: #1C2833;
+  --nunito: 'Nunito',  sans-serif;
+  --oswald: 'Oswald', sans-serif; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -9,13 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: #ECF0F1; */
   background: #009fe3;
-  /* background: rgb(145,193,69);
-  background: linear-gradient(90deg, rgba(145,193,69,1) 25%, rgba(0,159,227,1) 100%); */
-
-  /* background: rgb(0,159,227);
-  background: linear-gradient(0deg, rgba(0,159,227,1) 0%, rgba(145,193,69,1) 77%); */
 }
 
 ::-webkit-scrollbar{

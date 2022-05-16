@@ -1,11 +1,8 @@
-@import url('../root-variables.css');
-
 .header-container{
     width: 100%;
     height: 500px;
     position: relative;
     background: var(--black);
-    /* z-index: 100; */
 }
 
 .header-container::after{
@@ -21,7 +18,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* z-index: 1; */
 }
 
 @media screen and (max-width: 650px){
@@ -54,7 +50,7 @@
 }
 .header-slogan p b{
     font-size: 2rem;
-    font-family: var(--raleway);
+    font-family: var(--nunito);
     font-weight: 600;
     color: var(--green);
     text-shadow: 2px 2px 5px #000;
