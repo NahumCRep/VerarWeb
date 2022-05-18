@@ -1,7 +1,7 @@
 .product_page_grid_container{
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .product_page_mockup_div{
@@ -17,4 +17,10 @@
     height: 100%;
     object-fit: cover;
     transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 850px){
+    .product_page_grid_container{
+        width: 100%;
+    }
 }
