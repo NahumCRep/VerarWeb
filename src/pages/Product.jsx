@@ -1,8 +1,9 @@
 import React from 'react'
 import '../css/pages/product.css'
-import packageImg from '../assets/images/inf-p-4.png'
-import packageBack from '../assets/images/inf-p-1.jpg'
+import packageImg from '../assets/images/packages.webp'
+import packageBack from '../assets/images/packageBack.webp'
 import PromotionItems from '../components/products-components/PromotionItems'
+import ImageLazy from '../components/ImageLazy'
 import { AiFillGift } from 'react-icons/ai'
 
 
@@ -10,7 +11,11 @@ const Product = () => {
   return (
     <section className='product_page__section'>
       <article className='product_page__container'>
-        <img src={packageImg} alt="package" className='product_page_main_img' />
+        <figure className='product__lazy'>
+          <ImageLazy imgSrc={packageImg} imgAlt={"package"} />
+        </figure>
+
+        {/* <img src={packageImg} alt="package" className='product_page_main_img' /> */}
         <div className='product_page__info'>
           <h1>Parches Verar</h1>
           <p>
@@ -33,7 +38,13 @@ const Product = () => {
             <li>Suspendisse eu augue blandit lacus maximus sagittis ut in lectus.</li>
           </ul>
         </div>
-        <img src={packageBack} alt='package' className='product_page_img_circular' />
+        <figure className='product_page_img_circular' >
+          <ImageLazy 
+             imgAlt="package"
+             imgSrc={packageBack}
+          />
+        </figure>
+        {/* <img src={packageBack} alt='package' className='product_page_img_circular' /> */}
       </article>
       <article className='product_page_info_block'>
         <h1>¿Porqué Utilizar Parches Verar?</h1>

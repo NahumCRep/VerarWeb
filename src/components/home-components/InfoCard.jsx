@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/home-styles/infocard.css';
+import ImageLazy from '../ImageLazy';
 
 const InfoCard = (props) => {
     return(
@@ -8,7 +9,7 @@ const InfoCard = (props) => {
                    {props.children}
                 </div>
                 <div className="grid-item">
-                    <img src={props.imgs} alt="inf imagen"/>
+                    <ImageLazy imgSrc={props.imgs} imgAlt="inf imagen"/>
                 </div>
         </div>
     )

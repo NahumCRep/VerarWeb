@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/pages/home.css';
+import ImageLazy from '../components/ImageLazy'
 import inf_bx from '../assets/images/box.png';
 import pack from '../assets/images/box1.png';
 import us from '../assets/images/us.png';
@@ -37,7 +38,7 @@ const Home = () => {
                     <div className='content__grid_sections'>
                         <ContentGrid>
                             <div className="grid__item">
-                                <img src={us} alt="us" />
+                                <ImageLazy imgSrc={us} imgAlt={'us'} />
                             </div>
                             <ContentCard title="Nosotros">
                                 <p>Nuestra empresa esta específicamente pensada para proporcionar productos totalmente naturales, pero con un respaldo netamente científico</p>
@@ -51,7 +52,7 @@ const Home = () => {
                                 <a href="/products">Ver mas..</a>
                             </ContentCard>
                             <div className="grid__item">
-                                <img src={pack} alt="package" />
+                                <ImageLazy imgSrc={pack} imgAlt="package" />
                             </div>
                         </ContentGrid>
                     </div>
