@@ -7,7 +7,7 @@ const ChtsStyle = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    gap: '20px 20px',
+    gap: '20px',
     marginBottom: '50px',
     marginTop: '20px',
     boxSizing: 'border-box'

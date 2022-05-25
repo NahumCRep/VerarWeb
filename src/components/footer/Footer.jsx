@@ -3,6 +3,8 @@ import '../../css/footerstyle/footer.css';
 import { Link } from 'react-router-dom';
 import vicon from '../../assets/images/icons/verarwhite.png';
 import FooterList from './FooterList';
+import {FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaPhone, FaMapMarkerAlt} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
 
 const Footer = () => {
     return(
@@ -17,14 +19,14 @@ const Footer = () => {
             </div>
             <div className="footer-links">
                 <FooterList title="Contactenos" flexd="col">
-                    <li><i className="fas fa-phone"></i><label>+000 0000-00000</label></li>
-                    <li><i className="fas fa-envelope" title="email"></i><label>verar-oficial@gmail.com</label></li>
-                    <li><i className="fas fa-map-marker-alt"></i><label>Chitré, Distrito Chitré, Panamá</label></li>
+                    <li><FaPhone /><label>+000 0000-00000</label></li>
+                    <li><MdEmail /><label>verar-oficial@gmail.com</label></li>
+                    <li><FaMapMarkerAlt /><label>Chitré, Distrito Chitré, Panamá</label></li>
                 </FooterList>
                 <FooterList title="Siguenos" flexd="row">
-                    <li><Link to="/"><i className="fab fa-facebook-square fa-2x" title="facebook"></i></Link></li>
-                    <li><Link to="/"><i className="fab fa-instagram-square fa-2x" title="instagram"></i></Link></li>
-                    <li><Link to="/"><i className="fab fa-twitter-square fa-2x" title="twitter"></i></Link></li>
+                    <li><Link to="/"><FaFacebookSquare size={25} /></Link></li>
+                    <li><Link to="/"><FaInstagramSquare size={25} /></Link></li>
+                    <li><Link to="/"><FaTwitterSquare size={25} /></Link></li>
                 </FooterList>
             </div>
             <div className="footer-copyright" >

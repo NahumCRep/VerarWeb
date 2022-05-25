@@ -11,8 +11,8 @@
     color: var(--white);
 }
 
-.chts-div i{
-    color: var(--black);
+.chts-div svg{
+    color: var(--white);
 }
 
 @media screen and (max-width: 650px){

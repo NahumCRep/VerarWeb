@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../css/home-styles/point.css';
+import { FaArrowCircleRight } from 'react-icons/fa'
 
 const Point = (props) => {
-    return(
+    return (
         <div className="chts-div">
-                <i className="fas fa-chevron-circle-right fa-2x"></i>
-                <p>{props.content}</p>
+            <FaArrowCircleRight size={25} />
+            <p>{props.content}</p>
         </div>
     )
 }

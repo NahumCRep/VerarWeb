@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../css/home-styles/contactform.css';
+import {FaFacebookSquare, FaTwitterSquare, FaInstagramSquare } from 'react-icons/fa'
 
 const ContactForm = (props) => {
     return(
@@ -9,9 +10,9 @@ const ContactForm = (props) => {
                 <div className="contact-links">
                     <p> Escríbanos sobre cualquier consulta que tenga sobre los productos y siganos en nuestras redes para estar al tanto de nuestras activiades y ofertas </p>
                     <ul>
-                        <li><a href="/"><i className="fab fa-facebook-square" title="facebook"></i>verarpanama</a></li>
-                        <li><a href="/"><i className="fab fa-instagram-square" title="instagram"></i>verarpanama</a></li>
-                        <li><a href="/"><i className="fab fa-twitter-square" title="twitter"></i>verarpanama</a></li>
+                        <li><a href="/"><FaFacebookSquare size={25} />verarpanama</a></li>
+                        <li><a href="/"><FaInstagramSquare size={25} /> verarpanama</a></li>
+                        <li><a href="/"><FaTwitterSquare size={25} /> verarpanama</a></li>
                     </ul>
                 </div>
                 <form className="contact-form">
